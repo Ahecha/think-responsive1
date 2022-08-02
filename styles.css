@@ -128,7 +128,7 @@ h2, .widget-post-title {
   }
   .widget {
     border: #EBEBEB solid 20px;
-    margin-bottom: 2em;
+    margin-bottom: 7em;
     padding: 1em;    
   }
   .article-img {
@@ -156,13 +156,15 @@ footer {
   font-family: "Ubuntu", sans-serif;
   text-align: center;
   color: #EBEBEB;
-  padding: 3em 0;
+  padding-top: 1.5em;
   
 }
 
 @media  (max-width: 675px) {
 .container {
   flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 h1, h2, h3 {
   margin-top: 0;
@@ -174,13 +176,22 @@ nav ul {
 header {
   text-align: center;
 }
+aside {
+  width: 95%;
+}
 nav li {
   margin: .5em 0;
+}
+.recent-main, .sidebar {
+  margin: 0;
 }
 .article-recent {
   display: flex;
   flex-direction: column;
   margin-bottom: 2em;
 }
-
+.widget {
+  margin-bottom: 5em;
 }
+}
+/** terminado **/
